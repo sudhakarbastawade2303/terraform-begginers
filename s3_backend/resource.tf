@@ -11,14 +11,14 @@ terraform {
 
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIAWMMWELABONAKVO6W"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 
 resource "aws_key_pair" "key-tf" {
   key_name   = "first-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCe1bZjoeMtCPFlhtf7aKT2hLtu18h1XZoIw7Zb2vSFcR37YDwwFl90lGP68LZT8HycQY5x5VlnVFra5JhXN7NgCgKGUt+gYikBOB3ykTJrP0/o1g+TCjc9q5FkdPQtdEF9TV20Zq0CFXkrzZQdu+NHUEbt9rOdJP7ekENAiK4+0N2FvVWibgJfoMxeHXzsDjmboWhzvE0zIBccrrDB6yoFgWeXnynan0f4MkTp9i2o+9ty70YLNDHPXqMy7KukgHQ61d5jIxwTwwwVNLnHn+2hFnXAexQKJ7FfQ9QN3wBEacpmY/VNVtr32uBKDpXELdU9wmtdTdgwE2q0Cr3DSMym2HCYJu7fNHWPIGAm8/NDQUL/mPfhWHvYyQMOxnWmg1hWxJIKOWL8Ab7cGbjt17IbabxjVINvaIOB4baufk/37C0X+gVityU18y0KaRfy1D+QzjFa8TuJLxDo3mJaIcrTVmXG/56ZK5xVWva2hcoO2673eIJxpqPlrXt8O6H2bKE= ubuntu@ip-172-31-33-249"
+  public_key = ""
 }
 
 
