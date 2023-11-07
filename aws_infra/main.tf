@@ -15,4 +15,5 @@ module "vpc" {
   source = "./modules/vpc"
   public_subnet_cidrs = var.public_subnet_cidrs
   private_subnet_cidrs = var.private_subnet_cidrs
+  #public-ip = module.ec2.public_IP
 }
